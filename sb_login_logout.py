@@ -1,4 +1,4 @@
-import nose
+#import nose
 import unittest
 import xmlrunner
 from time import sleep 
