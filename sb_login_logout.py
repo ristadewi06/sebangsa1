@@ -14,7 +14,7 @@ class nosetest(unittest.TestCase):
         options = webdriver.ChromeOptions() #script  headless 
         options.add_argument('headless')    #script  headless 
         #self.driver = webdriver.Chrome('/home/okky/Documents/automated/nosetest/chromedriver',chrome_options=options ) #script  headless , script options untuk tanpa membuka google chrome
-        self.driver = webdriver.Chrome('/home/okky/Documents/automated/nosetest/chromedriver') #script bukan headless
+        self.driver = webdriver.Chrome('chromedriver') #script bukan headless
         self.driver.implicitly_wait(20)
         self.driver.maximize_window()
         self.driver.get("https://sebangsa4.jog.ojodowo.com/")
